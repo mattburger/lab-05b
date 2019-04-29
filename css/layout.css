@@ -1,0 +1,149 @@
+/*---------------------mobile*/
+  .header{
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 5%;
+    width: 80%;
+    text-align: center;
+  }
+
+  .left-stack{
+    background-color: rgb(79, 162, 195);
+    margin: 0 auto;
+    padding: 10%;
+    width: 70%;
+    text-align: center;
+  }
+  .stack{
+    margin: 0 auto;
+    border: none;
+    width: 90.4%;
+  }
+  .stack div{
+    background-color: rgb(15, 83, 47);
+    margin: 0 auto;
+    padding: 6%;
+    text-align: center;
+  }
+  .stack div+div{
+    background-color: brown;
+  }
+  .top-stack{
+    margin: 0 auto;
+    border: none;
+    width: 90.4%;
+    display: flex;
+  }
+  .top-stack div{
+    background-color: rgb(99, 156, 34);
+    width: 50%;
+    padding: 20%;
+  }
+  .top-stack div+div{
+    background-color: rgb(42, 44, 80);
+  }
+  .bottom-stack{
+    margin: 0 auto;
+    border: none;
+    width: 90.4%;
+    display: flex;
+  }
+  .bottom-stack div{
+    background-color: rgb(194, 119, 49);
+    width: 50%;
+    padding: 20%;
+  }
+  .bottom-stack div+div{
+    background-color: rgb(8, 251, 251);
+  }
+  .footer{
+    background-color: rgb(78, 98, 136);
+    margin: 0 auto;
+    padding: 6%;
+    width: 78%;
+    text-align: center;
+  }
+
+
+/*---------------------desktop*/
+@media only screen and (min-width: 768px){
+  *{
+    border: 1px red solid;
+    padding: .5px;
+  }
+  .master{
+    margin: 0 auto;
+    width: 960px;
+    height: 700px;
+    border: none;
+  }
+  .indaline{
+    display: inline;
+  }
+  .header{
+    background-color: aliceblue;
+    width: 100%;
+    height: 14.28%;
+    text-align: center;
+  }
+  .left-stack{
+    /* width: 20.83%; */
+    width: 100px;
+    height: 85.71%;
+    background-color: rgb(79, 162, 195);
+    float: left;
+    text-align: center;
+  }
+  .stack{
+    float: right;
+    display: flex;
+    border: none;
+    width: 79.166666667%;
+    height: 28.571%;
+  }
+  .stack div{
+    background-color: rgb(15, 83, 47);
+    width: 50%;
+    text-align: center;
+  }
+  .stack div+div{
+    background-color: brown;
+  }
+  .top-stack{
+    float: left;
+    border: none;
+    display: flex;
+    width: 39.5833333%;
+    height: 35.7142%;
+  }
+  .top-stack div{
+    background-color: rgb(99, 156, 34);
+    width: 100%;
+    text-align: center;
+  }
+  .top-stack div+div{
+    background-color: rgb(42, 44, 80);
+  }
+  .bottom-stack{
+    float: left;
+    border: none;
+    display: flex;
+    width: 39.5833333%;
+    height: 35.7142%;
+  }
+  .bottom-stack div{
+    background-color: rgb(194, 119, 49);
+    width: 100%;
+    text-align: center;
+  }
+  .bottom-stack div+div{
+    background-color: rgb(8, 251, 251);
+  }
+  .footer{
+    background-color: rgb(78, 98, 136);
+    width: 79.16666667%;
+    height: 21.428571%;
+    float: left;
+    text-align: center;
+  }
+}
